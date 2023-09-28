@@ -13,7 +13,7 @@ export class UserDto {
   description: string;
 
   @Field()
-  createdBy: string;
+  updatedBy: string;
 
   @Field()
   createdAt: Date

@@ -11,7 +11,7 @@ export class Notification extends Document {
   description: string;
 
   @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true })
-  createdBy: string;
+  updatedBy: string;
 
   @Prop({ required: true })
   createdAt: Date;

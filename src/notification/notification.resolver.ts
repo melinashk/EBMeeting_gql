@@ -1,5 +1,4 @@
-/* eslint-disable prettier/prettier */
 import { Resolver } from '@nestjs/graphql';
 
-@Resolver()
+@Resolver('Notification')
 export class NotificationResolver {}
