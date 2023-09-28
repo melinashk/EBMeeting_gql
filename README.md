@@ -1,3 +1,8 @@
+
+##About
+In this repository, a user is created. The user decides whether to accept or reject the notification from an app to their device. If the user rejects a simple message is logged. if the user accepts, every time the user profile is updated a notification is saved to the database. The device token related to a particular user id is sent the notification. This is just a demo app that does not consider any specific case
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
