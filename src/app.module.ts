@@ -8,7 +8,7 @@ import { NotificationModule } from './notification/notification.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      
+      'mongodb+srv://@cluster0.sbnak9d.mongodb.net/notification?retryWrites=true&w=majority',
     ),
     GraphQLModule.forRoot({
       autoSchemaFile: 'schema.gql',
